@@ -108,7 +108,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold]👑 Mật Khẩu[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold]👑 Chìa Khóa[/bold]", "Access Key", password=False)
         console.print("[bold cyan]👑 Đợi Kiểm Tra[/bold cyan]: ", end=None)
-        cpm = andoCPM(acc_access_key)
+        cpm = free(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
