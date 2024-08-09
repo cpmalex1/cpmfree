@@ -7,7 +7,7 @@ from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
 from rich.style import Style
-from free import Free
+from cpmfree import CPMFree
 
 __CHANNEL_USERNAME__ = "freeCPM"
 __GROUP_USERNAME__   = "freeCPM"
